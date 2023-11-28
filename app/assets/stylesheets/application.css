@@ -13,3 +13,90 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+
+.box .letter {
+  background-color: rgb(0, 98, 255);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  height: 6vh;
+  width: 6vw;
+  padding-top: 12px;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-left: 8px;
+  width: 200px;
+  font-family: 'Roboto';
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+  background-color: rgba(153, 153, 253, 0.477);
+  padding: 10px 0px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.form {
+  margin-left: 15px;
+  padding-top: 20px;
+}
+
+.form p {
+  font-family: 'Roboto';
+}
+
+.btn-submit,
+.btn-play {
+  background-color: rgb(71, 71, 255);
+  color: white;
+  font-family: 'Roboto';
+  padding: 10px 15px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: 0.5s ease;
+}
+
+.btn-submit:hover,
+.btn-play:hover {
+  background-color: rgb(255, 67, 139);
+}
+
+.btn-play {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  text-decoration: none;
+  width: 110px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.form .text {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-color: rgb(203, 203, 203);
+}
+
+.box-result p {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-left: grey solid;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  border-width: 5px;
+}
